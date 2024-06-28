@@ -26,7 +26,10 @@ print(name.capitalize()) # string method
 
 # print string
 print('The {0} {1} {2}'.format("A","B","C"))
-print('The {0} {1} {2}'.format("A","B","C"))
+print('The {a} {b} {c}'.format(a="A",b="B",c="C"))
+
+name="John"
+print(f'The is {name}')
 
 
 
