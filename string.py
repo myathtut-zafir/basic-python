@@ -26,6 +26,7 @@ print(name.capitalize()) # string method
 
 # print string
 print('The {0} {1} {2}'.format("A","B","C"))
+print('The {0} {1} {2}'.format("A","B","C"))
 
 
 
