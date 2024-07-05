@@ -1,0 +1,2 @@
+myList=[]
+help(myList.insert)
