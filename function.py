@@ -1,3 +1,8 @@
+from random import shuffle
+
+from function_interaction import shuffle_list
+
+
 def say_hello():
     print("hi")
 
@@ -38,3 +43,5 @@ print(employee(work_hours))
 name,hour=employee(work_hours) 
 print(name)
 print(hour)
+res=shuffle_list([1,2,3,4,5])
+print(res)
