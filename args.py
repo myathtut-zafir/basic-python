@@ -23,3 +23,14 @@ def myfunc(*args):
 # Example usage
 even_numbers = myfunc(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 print(even_numbers)  # [2, 4, 6, 8, 10]
+
+letter="testing"
+test=""
+for index, character in enumerate(letter):
+    if index%2:
+        test+=character.upper()
+        print(character.upper())
+    else:
+        test+=character.lower()
+        print(character.lower())
+print(test)
