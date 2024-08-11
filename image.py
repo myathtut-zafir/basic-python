@@ -9,4 +9,3 @@ print(mac.show())
 # crop=mac.crop((0,0,100,100))
 #color
 # color=mac.putalpha(0) # set color on image
-
